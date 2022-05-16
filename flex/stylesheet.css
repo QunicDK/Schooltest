@@ -1,0 +1,52 @@
+body {
+  background-color: lightgray;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+/*Smol screen*/
+.flex > div {
+  background-color: lightblue;
+  border-style: solid;
+  border-color: black;
+  justify-content: space-around;
+  margin: 5px;
+}
+/*Big screen*/
+@media only screen and (min-width:600px) {
+  .flex > div {
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+  }
+    .flex {
+      display: flex;
+      justify-content: space-around;
+    }
+}
+.flex > div {
+  /*Button actions*/
+  transition-duration:0.4;
+  justify-content: space-around;
+}
+.flex > div:hover {
+  background-color: lime;
+}
+
+.home {
+  flex-grow: 1;
+}
+
+.about {
+  flex-grow: 1
+}
+
+.products {
+  flex-grow: 1;
+}
+.contact {
+  flex-grow: 1;
+}
+*/
