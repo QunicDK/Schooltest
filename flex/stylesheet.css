@@ -33,6 +33,7 @@ p {
 }
 .flex > div:hover {
   background-color: lime;
+  border-style: dotted;
 }
 
 .home {
